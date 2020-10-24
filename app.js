@@ -14,6 +14,7 @@ const mongoDb = require("./database/database");
 mongoDb.connect();
 
 require('./models/User');
+require('./models/Location');
 
 app.use(require("./routes"));
 
